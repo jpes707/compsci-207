@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B22B48AC279F48410057EDC9 /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B48AB279F48410057EDC9 /* firstViewController.swift */; };
 		B2C840CB278CD6F700D1CD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C840CA278CD6F700D1CD97 /* AppDelegate.swift */; };
 		B2C840CD278CD6F700D1CD97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C840CC278CD6F700D1CD97 /* SceneDelegate.swift */; };
 		B2C840CF278CD6F700D1CD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C840CE278CD6F700D1CD97 /* ViewController.swift */; };
 		B2C840D2278CD6F700D1CD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C840D0278CD6F700D1CD97 /* Main.storyboard */; };
 		B2C840D4278CD6F800D1CD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C840D3278CD6F800D1CD97 /* Assets.xcassets */; };
 		B2C840D7278CD6F800D1CD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C840D5278CD6F800D1CD97 /* LaunchScreen.storyboard */; };
+		B2E1C4F927A1EBDB00C63901 /* firstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1C4F827A1EBDB00C63901 /* firstTableViewController.swift */; };
+		B2E1C4FB27A1F75600C63901 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E1C4FA27A1F75600C63901 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22B48AB279F48410057EDC9 /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		B2C840C7278CD6F700D1CD97 /* CS207.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS207.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C840CA278CD6F700D1CD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C840CC278CD6F700D1CD97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B2C840D3278CD6F800D1CD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C840D6278CD6F800D1CD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C840D8278CD6F800D1CD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2E1C4F827A1EBDB00C63901 /* firstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableViewController.swift; sourceTree = "<group>"; };
+		B2E1C4FA27A1F75600C63901 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				B2C840D3278CD6F800D1CD97 /* Assets.xcassets */,
 				B2C840D5278CD6F800D1CD97 /* LaunchScreen.storyboard */,
 				B2C840D8278CD6F800D1CD97 /* Info.plist */,
+				B22B48AB279F48410057EDC9 /* firstViewController.swift */,
+				B2E1C4F827A1EBDB00C63901 /* firstTableViewController.swift */,
+				B2E1C4FA27A1F75600C63901 /* detailViewController.swift */,
 			);
 			path = CS207;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C840CF278CD6F700D1CD97 /* ViewController.swift in Sources */,
+				B2E1C4F927A1EBDB00C63901 /* firstTableViewController.swift in Sources */,
 				B2C840CB278CD6F700D1CD97 /* AppDelegate.swift in Sources */,
 				B2C840CD278CD6F700D1CD97 /* SceneDelegate.swift in Sources */,
+				B22B48AC279F48410057EDC9 /* firstViewController.swift in Sources */,
+				B2E1C4FB27A1F75600C63901 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
